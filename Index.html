@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>DEBUG THUGS</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="logo.png" alt="Whizz Cryption Logo">
+            <h1>Whizz Cryption</h1>
+        </div>
+        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        <div class="navbar-right">
+            <a href="index.html"><h3>HOME</h3></a>
+            <a href="premium.html"><H3>PREMIUM</H3></a>
+            <a href="LoginPage.html"><H3>LOGIN</H3></a>
+            <a href="register.html"><H3>REGISTER</H3></a>
+        </div>
+    </div>
+    
+    <!-- Your existing content -->
+    
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navbarRight = document.querySelector('.navbar-right');
+    
+        menuIcon.addEventListener('click', () => {
+            navbarRight.classList.toggle('show-links');
+        });
+    </script>
+</body>
+</html>
