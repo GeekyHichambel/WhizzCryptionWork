@@ -1,7 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
+  height: 100%;
+  background-color: #e3e3e3;
 }
 
 .navbar {
@@ -75,3 +76,175 @@ body {
       padding: 10px 0;
   }
 }
+/* HERO---SECTION */
+.main_1 {
+  margin-left: 18%;
+  margin-top: 90px;
+  margin-right: 5%;
+  flex-direction: row;
+  font-size: 30px;
+  border: 4px dashed green;
+  text-align: center;
+  color: rgb(27, 24, 24);
+  background-color: lightgreen;
+  display: inline-flex;
+  width: 90%;
+  max-width: 400px;
+  height: 400px;
+}
+
+.encrypt {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  height: 50px;
+  width: 90%;
+  max-width: 190px;
+  padding-left: 13px;
+  padding-right: 2px;
+  font-weight: bold;
+}
+
+.main_2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  flex-direction: row;
+  font-size: 30px;
+  border: 4px dashed green;
+  text-align: center;
+  color: rgb(27, 24, 24);
+  background-color: lightgreen;
+  display: inline-flex;
+  width: 90%;
+  max-width: 400px;
+  height: 400px;
+}
+
+.decrypt {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  height: 50px;
+  width: 90%;
+  max-width: 190px;
+  padding-left: 13px;
+  padding-right: 2px;
+  font-weight: bold;
+}
+
+/* Reset default button styles */
+button, input[type="file"] {
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.container_1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+#textbox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+#enter-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#file-upload-label {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#file-upload {
+  display: none; /* Hide the actual file input element */
+}
+
+/* Hover effect for the Enter button and Upload File label */
+#enter-button:hover, #file-upload-label:hover {
+  background-color: #2079b0;
+}
+
+.up_button {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.or-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* Reset default button styles */
+button {
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.container_2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 90px; 
+}
+
+#textbox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 200px;
+  font-size: 15px;
+}
+
+#download-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Hover effect for the Download Result button */
+#download-button:hover {
+  background-color: #2079b0;
+}
+
+@media screen and (max-width: 768px) {
+  /* Apply these styles for screens with a width of 768px or less */
+  .main_1, .encrypt, .main_2, .decrypt {
+    flex-direction: column;
+    width: 90%;
+    max-width: none;
+    margin-left: 5%;
+  }
+  .container_1,.container_2{
+    margin-left: 5px;
+  }
+
+}
+
+
