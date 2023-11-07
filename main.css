@@ -3,6 +3,7 @@ body {
   margin: 0;
   height: 100%;
   background-color:  #bdcbe2;
+  background-color: #e3e3e3;
 }
 
 .navbar {
@@ -96,6 +97,7 @@ body {
 .encrypt {
   display: flex;
   margin-left: 10%;
+  margin-left: 5%;
   margin-right: 5%;
   margin-top: 10px;
   height: 50px;
@@ -108,6 +110,7 @@ body {
 
 .main_2 {
   margin-left: 10%;
+  margin-left: 5%;
   margin-right: 5%;
   margin-top: 20px;
   flex-direction: row;
