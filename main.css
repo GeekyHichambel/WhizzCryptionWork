@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
   /* background-color:  #bdcbe2; */
   /* background-color: #3498db; */
-  background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+  background: black;
 }
 
 .navbar {
@@ -256,23 +256,25 @@ button {
 /* // CSS Variables */
 
 :root {
-  --color-grey-dark: #323031;
-  --color-grey-light: #d9dcd6;
+  --color-grey-dark: #c74385;
+  --color-grey-light: #ffffff;
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .05);
 }
 .codepen-wrapper {
   height: 50vh;
-  background-color: var(--color-grey-light);
+  /* background-color: var(--color-grey-light); */
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .review {
-  color: var(--color-grey-dark);
+  color: white
   font-size: 1.4rem;
   padding: 3rem;
   position: relative;
-  background-color: #fff;
+  background: rgb(213,163,255);
+  background: linear-gradient(90deg, rgba(213,163,255,1) 35%, rgba(119,165,248,1) 100%);
   box-shadow: var(--shadow-light);
   overflow: hidden;
   flex: 0 0 50%;
@@ -364,15 +366,14 @@ button {
 /* Existing styles */
 
 .features-section {
-  background-color: #ffffff;
+  background-color:black;
   padding: 60px 20px;
-  width: 100%;
+  width: auto;
   margin-top: 200px;
   text-align: center;
 }
-
 .features-section h2 {
-  color: #1f3456;
+  color: #ffffff;
 }
 
 .feature {
@@ -381,22 +382,23 @@ button {
 
 .feature i {
   font-size: 3em;
-  color: #3498db;
+  color: #D5A3FF;
 }
 
 .feature h3 {
   font-size: 1.5em;
   margin-top: 10px;
-  color: #333;
+  color: #ffffff;
 }
 
 .feature p {
   font-size: 1em;
-  color: #666;
+  color: #ffffff;
 }
 
 .cta-section {
-  background-color: #3498db;
+  background: rgb(213,163,255);
+background: linear-gradient(90deg, rgba(213,163,255,1) 35%, rgba(119,165,248,1) 100%);
   color: #fff;
   width: auto;
   padding: 60px 20px;
@@ -414,7 +416,7 @@ button {
 }
 
 .cta-button {
-  background-color: #fff;
+  background-color:#D5A3FF;
   color: #3498db;
   padding: 15px 30px;
   font-size: 1.2em;
@@ -424,7 +426,7 @@ button {
 }
 
 .cta-button:hover {
-  background-color: #1f3456;
+  background-color: #3e7df0;
   color: #fff;
 }
 
