@@ -14,19 +14,19 @@
     <!-- NAVBAR WORK  -->
         
     <div class="navbar">
-        <div class="navbar-left">
-            <img src="logo.png" alt="Whizz Cryption Logo">
-            <h1>Whizz Cryption</h1>
-        </div>
-        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
-        <div class="navbar-right">
-            <a href="index.html"><h3>HOME</h3></a>
-            <a href="premium.html"><H3>PREMIUM</H3></a>
-            <a href="LoginPage.html"><H3>LOGIN</H3></a>
-            <a href="LoginPage.html"><H3>REGISTER</H3></a>
-        </div>
-    </div>
-
+      <div class="navbar-left">
+          <img src="logo.png" alt="Whizz Cryption Logo">
+          <h1>Whizz Cryption</h1>
+      </div>
+      <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+      <div class="navbar-right">
+          <a href="index.html"><h3>HOME</h3></a>
+          <a href="premium.html"><h3>PREMIUM</h3></a>
+          <a href="LoginPage.html"><h3>LOGIN</h3></a>
+          <a href="LoginPage.html"><h3>REGISTER</h3></a>
+      </div>
+  </div>
+  
 <!-- ENcrypt and Decrypt -->
         <div class="main_1">
             
@@ -234,14 +234,14 @@
         </body>
     
     <!-- Your existing content -->
-    
     <script>
-        const menuIcon = document.querySelector('.menu-icon');
-        const navbarRight = document.querySelector('.navbar-right');
-    
-        menuIcon.addEventListener('click', () => {
-            navbarRight.classList.toggle('show-links');
-        });
-    </script>
-
+      document.addEventListener('DOMContentLoaded', function () {
+          const menuIcon = document.querySelector('.menu-icon');
+          const navbarRight = document.querySelector('.navbar-right');
+  
+          menuIcon.addEventListener('click', function () {
+              navbarRight.classList.toggle('show');
+          });
+      });
+  </script>
 </html>

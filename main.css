@@ -5,16 +5,23 @@ body {
   overflow-x: hidden;
   /* background-color:  #bdcbe2; */
   /* background-color: #3498db; */
+  font-family: 'Roboto', sans-serif;
   background: black;
 }
 
 .navbar {
-  background-color: #1f3456;
   display: flex;
-  width: auto;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  /* background: #333; Dark background color */
+  background: rgb(213,163,255);
+  background: linear-gradient(90deg,rgba(213,163,255,1) 35%, rgba(119,165,248,1) 100%);
+  padding: 15px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-left {
@@ -23,63 +30,54 @@ body {
 }
 
 .navbar-left img {
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin-right: 10px;
 }
 
 .navbar-left h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #FFFFFF;
+  color: #fff; /* Text color */
   margin: 0;
 }
 
 .navbar-right {
   display: flex;
-  margin-right: 75px;
-  align-items: center;
-  gap: 25px;
 }
 
 .navbar-right a {
-  color: #FFFFFF;
   text-decoration: none;
-  font-size: 16px;
+  color: #fff; /* Text color */
+  margin: 0 15px;
 }
 
 .menu-icon {
   display: none;
   cursor: pointer;
   font-size: 24px;
+  color: #fff; /* Text color */
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 800px) {
   .navbar-right {
       display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px; /* Adjust as needed */
+      left: 0;
+      width: 100%;
+      background: #333; /* Dark background color */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-right.show {
+      display: flex;
   }
 
   .menu-icon {
       display: block;
   }
-
-  .navbar-right.show-links {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: absolute;
-      top: 60px;
-      text-decoration: dashed;
-      right: -30px;
-      background-color: #1f3456;
-      padding: 20px;
-      border-radius: 20px;
-  }
-
-  .navbar-right.show-links a {
-      display: block;
-      padding: 10px 0;
-  }
 }
+
 /* HERO---SECTION */
 .main_1 {
   margin-left: 18%;
