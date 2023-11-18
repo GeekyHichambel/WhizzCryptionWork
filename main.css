@@ -12,9 +12,8 @@ body {
 
 .hero-section{
   margin-top: 120px;
-  /* color: wheat; */
-  margin-top: 140px;
   color:  #c57dff;
+  padding: 10px;
   text-align: center;
   /* font-size: 20px; */
 }
