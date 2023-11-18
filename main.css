@@ -10,14 +10,11 @@ body {
   background: black;
 }
 
-.hero-content{
-  line-height: 5; 
-}
-
 .hero-section{
   margin-top: 120px;
   color:  #c57dff;
   padding: 10px;
+  line-height: 200px;
   text-align: center;
   /* font-size: 20px; */
 }
