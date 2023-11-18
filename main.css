@@ -14,10 +14,14 @@ body {
   margin-top: 120px;
   color:  #c57dff;
   padding: 10px;
-  line-height: 200px;
   text-align: center;
   /* font-size: 20px; */
 }
+
+.hero-content{
+  line-height: 1.5;
+}
+
 .PremiumQuote{
   color: white;
   padding: 20px;
